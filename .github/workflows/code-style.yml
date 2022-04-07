@@ -32,3 +32,8 @@ jobs:
           VALIDATE_PHP_PHPCS: true
           VALIDATE_PHP_PHPSTAN: true
           DEFAULT_WORKSPACE: .
+
+      - name: Run Commands
+        run: |
+          pwd
+          ls -la
