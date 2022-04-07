@@ -31,3 +31,4 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_PHP_PHPCS: true
           VALIDATE_PHP_PHPSTAN: true
+          DEFAULT_WORKSPACE: .
