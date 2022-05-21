@@ -2,4 +2,4 @@
 
 echo $unknown;
 
-$x = [1, 2 3, 'err'];
+$x = [1, 2, 3, 'err'];
