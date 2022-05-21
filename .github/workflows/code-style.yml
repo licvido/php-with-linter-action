@@ -18,13 +18,13 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Lint Code Base
-        uses: github/super-linter/slim@v4
-        env:
-          VALIDATE_ALL_CODEBASE: true
-          VALIDATE_PHP_PHPCS: true
-          VALIDATE_PHP_PHPSTAN: true
-          DEFAULT_WORKSPACE: .
+#      - name: Lint Code Base
+#        uses: github/super-linter/slim@v4
+#        env:
+#          VALIDATE_ALL_CODEBASE: true
+#          VALIDATE_PHP_PHPCS: true
+#          VALIDATE_PHP_PHPSTAN: true
+#          DEFAULT_WORKSPACE: .
 
       - name: Run Commands
         run: |
